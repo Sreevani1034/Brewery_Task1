@@ -15,7 +15,7 @@ function order_items() {
         var itemName = ask("Enter the name of the item you want: ");
         var quantity = parseInt(ask("Enter how many you want: "), 10);
         if (isNaN(quantity) || quantity <= 0) {
-            console.log("❌ Invalid quantity. Please enter a positive number.");
+            console.log(" Invalid quantity. Please enter a positive number.");
             return "continue";
         }
         var foundItem = obj1.find(function (item) { return item.name.toLowerCase() === itemName.toLowerCase(); });
