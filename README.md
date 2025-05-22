@@ -14,7 +14,7 @@ A terminal-based billing system built using **TypeScript** for a coffee shop nam
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - TypeScript
 - Node.js
@@ -22,7 +22,7 @@ A terminal-based billing system built using **TypeScript** for a coffee shop nam
 
 ---
 
-## 📦 How to Run
+##  How to Run
 
 1. **Install dependencies**
 
@@ -45,7 +45,7 @@ node task.js
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 .
@@ -58,13 +58,13 @@ node task.js
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Sreevani**
 
 ---
 
-## 📝 .gitignore Example
+##  .gitignore Example
 
 ```
 node_modules/
@@ -72,30 +72,6 @@ dist/
 .DS_Store
 ```
 
----
 
-## 🧾 package.json Example
-
-```json
-{
-  "name": "brewery-billing",
-  "version": "1.0.0",
-  "description": "A TypeScript terminal app for billing in a coffee shop.",
-  "main": "task.js",
-  "scripts": {
-    "start": "tsc task.ts && node task.js"
-  },
-  "author": "Sreevani",
-  "license": "ISC",
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0"
-  }
-}
-```
-
----
 
 
